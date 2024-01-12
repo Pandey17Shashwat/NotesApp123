@@ -1,0 +1,77 @@
+.error{
+    position: absolute;
+    top:20px;
+    right:25px;
+    z-index: 2000;
+    background-color: rgb(241, 244, 247);
+    box-shadow: 0px 0px 5px 1px rgb(127, 129, 131);
+    width: 40%;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    justify-content: space-between;
+    transform: translateX(130%);
+    display: none;
+    transition: all 0.3s ease-in-out;
+}
+.error3{
+    display: flex;
+    animation: slide 5s;
+}
+.error-content{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    gap:10px;
+}
+.err{
+    color: rgb(145, 15, 15);
+    width: 30px;
+    height: 30px;
+}
+
+.info{
+    color: rgb(110, 110, 11);
+    width: 30px;
+    height: 30px;
+}
+
+.done{
+    background-color: rgb(25, 165, 37);
+    color: white;
+    border-radius: 50%;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+}
+.crr{
+    cursor: pointer;
+}
+
+@keyframes slide{
+    0%{
+        transform: translateX(130%);
+    }
+    10%{
+        transform: translateX(0%);
+    }
+    90%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(130%);
+    }
+}
+
+@media screen and (max-width:616px) {
+    .error{
+        width: 80%;
+        font-size: 0.9rem !important;
+    }
+    .error p{
+        font-size: 0.9rem !important;
+    }
+    
+}

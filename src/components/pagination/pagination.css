@@ -1,0 +1,14 @@
+.page-btn>button{
+    padding: 10px 20px;
+    color: white;
+    background-color: rgb(19, 18, 20);
+    border: none;
+    margin: 3px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.page-btn>.prev{
+    background-color: rgb(157, 161, 163) !important;
+    color: rgb(44, 42, 42);
+}

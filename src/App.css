@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(193, 202, 207);
+    overflow: hidden;
+}
+
+.App{
+    width: 100%;
+    height: 100vh;
+    height: 100svh;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.wrong{
+    position: absolute;
+    top:20px;
+    width: 100%;
+}
+
+.app-dark{
+    background-color: rgb(22, 37, 39);
+}
